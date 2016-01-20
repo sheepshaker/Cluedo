@@ -1,0 +1,15 @@
+﻿@{
+    ViewBag.Title = "Main Page";
+}
+
+<div ng-app="app">
+    
+            <input type="text" ng-model="vm.food" placeholder="Enter food" />
+            <p>>>> {{2+2*2}} <<<</p>
+            <p> Sriracha sauce is great with {{vm.food}}! </p>
+</div>
+
+<script src="~/Scripts/angular.min.js"></script>
+<script src="~/Scripts/angular-resource.js"></script>
+<script src="~/Scripts/app/app.module.js"></script>
+<script src="~/Scripts/app/mainCtrl.js"></script>
